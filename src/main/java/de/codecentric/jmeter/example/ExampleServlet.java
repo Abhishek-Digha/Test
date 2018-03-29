@@ -1,4 +1,4 @@
-package de.codecentric.jmeter.example;
+/*package de.codecentric.jmeter.example;
 
 import javax.servlet.GenericServlet;
 import javax.servlet.ServletException;
@@ -29,3 +29,4 @@ public class ExampleServlet extends GenericServlet {
 		}
 	}
 }
+*/
