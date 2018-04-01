@@ -13,13 +13,44 @@
         generate graphs from the test results using the jmeter plugins CMDRunner. 
     </description>
 
+    <properties>
+        <jetty.port>9097</jetty.port>
+        <jetty.stopPort>19097</jetty.stopPort>
+        <performancetest.webservice.host>10.65.84.93</performancetest.webservice.host>
+        <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
+        <performancetest.webservice.path>/</performancetest.webservice.path>
+        <performancetest.connectTimeout>1000</performancetest.connectTimeout>
+        <performancetest.responseTimeout>3000</performancetest.responseTimeout>
+        <performancetest.threadCount>1</performancetest.threadCount>
+        <performancetest.loopCount>1</performancetest.loopCount>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>jenkins</id>
+            <properties>
+                <performancetest.webservice.host>tomcat7-example-webapp.mlex.cloudbees.net</performancetest.webservice.host>
+                <performancetest.webservice.port>80</performancetest.webservice.port>
+                <performancetest.threadCount>5</performancetest.threadCount>
+                <performancetest.loopCount>5</performancetest.loopCount>
+            </properties>
+        </profile>
+    </profiles>
     <build>
         <plugins>
         
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-clean-plugin</artifactId>
-            <version>3.0.0</version>
+            <version>2.4.1</version>
             <configuration>
                  <filesets>
                     <fileset>
@@ -163,8 +194,7 @@
                 <artifactId>jmeter-analysis-maven-plugin</artifactId>
                 <version>1.0.5</version>
                 <configuration>
-                    <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
-                    </source>
+                    <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl</source>
                           
               <sourceDirFailed>true</sourceDirFailed>
               <checkResult>
@@ -221,8 +251,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <inputFile>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
-                    </inputFile>
+                    <inputFile>${project.build.directory}/jmeter/results/LeedOnline.jtl</inputFile>
                     <graphs>
                         <graph>
                             <pluginType>ThreadsStateOverTime</pluginType>
