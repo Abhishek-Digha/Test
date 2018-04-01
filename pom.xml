@@ -194,7 +194,8 @@
                 <artifactId>jmeter-analysis-maven-plugin</artifactId>
                 <version>1.0.5</version>
                 <configuration>
-                    <source>${project.build.directory}/jmeter/results/LeedOnline.jtl</source>
+                    <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
+                    </source>
                           
               <sourceDirFailed>true</sourceDirFailed>
               <checkResult>
@@ -251,7 +252,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <inputFile>${project.build.directory}/jmeter/results/LeedOnline.jtl</inputFile>
+                    <inputFile>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
+                    </inputFile>
                     <graphs>
                         <graph>
                             <pluginType>ThreadsStateOverTime</pluginType>
