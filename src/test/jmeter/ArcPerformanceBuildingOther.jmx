@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Arc Performance" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Arc performance test-13 1march" enabled="true">
       <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.1.1.312. Please contact support@blazemeter.com for further support.</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -125,7 +125,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <longProp name="ThreadGroup.start_time">1363247040000</longProp>
         <longProp name="ThreadGroup.end_time">1363247040000</longProp>
@@ -137,11 +137,10 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">/var/lib/jenkins/workspace/ARCPerformance/csv/DataDriven.csv
-          </stringProp>
+          <stringProp name="filename">/var/lib/jenkins/workspace/TestPerformance/DataDriven.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
-          <boolProp name="recycle">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">false</boolProp>
           <stringProp name="variableNames">ProjectName,ProjectType,RatingSystem,SpaceType,OwnerType,OwnerOrganization,OwnerEmail,OwnerCountry,Area,Address,City,Country,State,Zip            </stringProp>
@@ -153,7 +152,6 @@
           <stringProp name="filename"></stringProp>
           <stringProp name="cacheKey"></stringProp>
           <stringProp name="script">import java.text.SimpleDateFormat;
-
 import java.util.Calendar;
 import java.util.Date;
 import java.text.DateFormat;
@@ -299,7 +297,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
               <elementProp name="C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\agreement.html" elementType="HTTPFileArg">
-                <stringProp name="File.path">/var/lib/jenkins/workspace/ARCPerformance/agreement.html</stringProp>
+                <stringProp name="File.path">/var/lib/jenkins/workspace/TestPerformance/agreement.html</stringProp>
                 <stringProp name="File.paramname">agreement</stringProp>
                 <stringProp name="File.mimetype">text/html</stringProp>
               </elementProp>
@@ -2445,11 +2443,12 @@ Saurav K&#xd;
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/var/lib/jenkins/workspace/ARCPerformance/csv/ArcPerformance.csv</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/workspace/TestPerformance/Arc-performanceResult.csv
+          </stringProp>
         </ResultCollector>
         <hashTree/>
         <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Duration Assertion" enabled="true">
-          <stringProp name="DurationAssertion.duration">7000</stringProp>
+          <stringProp name="DurationAssertion.duration">15000</stringProp>
           <stringProp name="Assertion.scope">all</stringProp>
         </DurationAssertion>
         <hashTree/>
@@ -2641,7 +2640,8 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.port"></stringProp>
         <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-        <stringProp name="HTTPSampler.path">stg/leed/assets/LEED:1000145103/meters/ID:312889/consumption/</stringProp>
+        <stringProp name="HTTPSampler.path">stg/leed/assets/LEED:1000145103/meters/ID:312889/consumption/
+        </stringProp>
         <stringProp name="HTTPSampler.method">GET</stringProp>
         <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
         <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
