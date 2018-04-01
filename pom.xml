@@ -135,7 +135,7 @@
                     <dependency>
                         <groupId>kg.apc</groupId>
                         <artifactId>jmeter-plugins</artifactId>
-                        <version>1.4.0</version>
+                        <version>1.0.0</version>
                         <exclusions>
                             <!--
                                 Unfortunately some transitive dependencies cannot be found on mvncentral
