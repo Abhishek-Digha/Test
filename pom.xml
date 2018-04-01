@@ -80,8 +80,9 @@
                    <execution>
                         <id>jmeter-check-results</id>
                         <goals>
-                            <goal>results</goal>
+                            <goal>jmeter</goal>
                         </goals>
+                        <phase>integration-test</phase>
                    </execution>
                 </executions>
                 <dependencies>
