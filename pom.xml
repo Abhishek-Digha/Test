@@ -12,7 +12,10 @@
         Example how to integrate jmeter tests in a maven build and how to automatically 
         generate graphs from the test results using the jmeter plugins CMDRunner. 
     </description>
-
+    
+    <properties>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
    
     <build>
         <plugins>
@@ -148,7 +151,7 @@
                 </dependencies>
             </plugin>
 
-            
+             
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-analysis-maven-plugin</artifactId>
