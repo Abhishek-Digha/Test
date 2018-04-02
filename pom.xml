@@ -80,10 +80,13 @@
             </goals>
             <configuration>
             <overwrite>false</overwrite>
-              <outputDirectory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</outputDirectory>
+              <!-- <outputDirectory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</outputDirectory> -->
+              <outputDirectory>C:\Users\Lenovo\Documents\ARCPerformance\PTest\Test\Reportfile
+              </outputDirectory>
               <resources>          
                 <resource>
-                  <directory>/var/lib/jenkins/workspace/TestPerformance/src/test/jmeter/File</directory>
+                  <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/src/test/jmeter/File</directory> -->
+                  <directory>C:\Users\Lenovo\Documents\ARCPerformance\PTest\Test\src\test\jmeter\File</directory>
                   <filtering>true</filtering>
                 </resource>
               </resources>              
