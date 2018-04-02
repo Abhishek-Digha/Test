@@ -114,6 +114,7 @@
                     </propertiesUser>
                     <propertiesJMeter>
                         <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
+                <jmeter.save.saveservice.print_field_names>true</jmeter.save.saveservice.print_field_names>
                     </propertiesJMeter>
                     <jmeterPlugins>
                         <plugin>
