@@ -54,7 +54,8 @@
             <configuration>
                  <filesets>
                     <fileset>
-                        <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory>
+                        <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory> -->
+                        <directory>D:\Jenkins\workspace\TestPerformance\Reportfile</directory>
                         <includes>
                             <include>**/*</include>
                         </includes>
