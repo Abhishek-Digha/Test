@@ -192,7 +192,7 @@
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-analysis-maven-plugin</artifactId>
-                <version>1.0.5</version>
+                <version>1.0.6</version>
                 <configuration>
                     <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl</source>
                           
