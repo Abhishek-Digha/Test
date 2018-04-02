@@ -1,2 +1,1 @@
-Time,Label,Code,Message,Thread Name,Success,Bytes,Thread Counts,Loop Counts,Latency
-1522660847487,6354,Login,200,OK,ARCTest 1-1,text,true,1066,1,1,6353
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Connect
