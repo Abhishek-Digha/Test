@@ -114,7 +114,6 @@
                     </propertiesUser>
                     <propertiesJMeter>
                         <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
-                <jmeter.save.saveservice.print_field_names>true</jmeter.save.saveservice.print_field_names>
                     </propertiesJMeter>
                     <jmeterPlugins>
                         <plugin>
@@ -252,7 +251,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <inputFile>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl</inputFile>
+                    <inputFile>${project.build.directory}/jmeter/results/LeedOnline.jtl</inputFile>
                     <graphs>
                         <graph>
                             <pluginType>ThreadsStateOverTime</pluginType>
