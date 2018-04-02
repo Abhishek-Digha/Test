@@ -223,7 +223,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="scriptLanguage">groovy</stringProp>
         </JSR223PreProcessor>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login Module" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Login Module" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -247,7 +247,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -293,7 +293,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Project Registration" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Project Registration" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
               <elementProp name="C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\agreement.html" elementType="HTTPFileArg">
@@ -523,7 +523,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -572,7 +572,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Registration Payment" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Registration Payment" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -596,7 +596,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -637,7 +637,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Energy meter" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Create Energy meter" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -661,7 +661,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -715,7 +715,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Energy Reading" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Energy Reading" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -740,7 +740,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -785,7 +785,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Water Meter" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Create Water Meter" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -809,7 +809,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -863,7 +863,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Water Reading" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Water Reading" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -887,7 +887,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -932,7 +932,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Waste Meter" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Create Waste Meter" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="page_size" elementType="HTTPArgument">
@@ -957,7 +957,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -998,7 +998,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Waste Reading" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Waste Reading" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1022,7 +1022,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1067,7 +1067,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Manage Project (Click)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Manage Project (Click)" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -1084,7 +1084,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1125,7 +1125,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Edit Opreating Hours" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Edit Opreating Hours" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1149,7 +1149,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1194,7 +1194,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Edit Occupancy" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Edit Occupancy" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1218,7 +1218,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1263,7 +1263,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Team (Click)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Team (Click)" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -1280,7 +1280,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1321,7 +1321,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add Team Member" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Add Team Member" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1345,7 +1345,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1390,7 +1390,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Edit Team Member Role" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Edit Team Member Role" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1414,7 +1414,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1459,7 +1459,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Install Apps (Click)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Install Apps (Click)" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -1476,7 +1476,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1517,7 +1517,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Install Dropbox" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Install Dropbox" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1541,7 +1541,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1586,7 +1586,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Install One Drive" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Install One Drive" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1610,7 +1610,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1655,7 +1655,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Install Google Drive" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Install Google Drive" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1679,7 +1679,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1724,7 +1724,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Credit Action (Click)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Credit Action (Click)" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -1741,7 +1741,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1778,7 +1778,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Uploading the Excel Template to Create Energy Meter" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Uploading the Excel Template to Create Energy Meter" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -1808,7 +1808,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1853,7 +1853,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Creating the Log for Uploading the Create Energy Meter File" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Creating the Log for Uploading the Create Energy Meter File" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="leed_id" elementType="HTTPArgument">
@@ -1892,7 +1892,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1929,7 +1929,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Exporting the Data for Energy Meter" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Exporting the Data for Energy Meter" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -1946,7 +1946,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -1983,7 +1983,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Review (Click)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Review (Click)" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2000,7 +2000,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -2041,7 +2041,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Send Data Snapshot for Performance Score" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Send Data Snapshot for Performance Score" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="end_date" elementType="HTTPArgument">
@@ -2087,7 +2087,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -2128,7 +2128,7 @@ Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12&#xd;
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Submit Review (Performance Score Verification)" enabled="true">
+        <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Submit Review (Performance Score Verification)" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -2325,7 +2325,7 @@ Saurav K&#xd;
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
+        </HTTPSampler>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -2458,7 +2458,7 @@ Saurav K&#xd;
       <boolProp name="WorkBench.save">true</boolProp>
     </WorkBench>
     <hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=operating_hours" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=operating_hours" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="kind" elementType="HTTPArgument">
@@ -2483,7 +2483,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2511,7 +2511,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=gross_area" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=gross_area" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="kind" elementType="HTTPArgument">
@@ -2536,7 +2536,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2564,7 +2564,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=occupancy" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/?kind=occupancy" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="kind" elementType="HTTPArgument">
@@ -2589,7 +2589,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2617,7 +2617,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312889/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312889/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="end_date" elementType="HTTPArgument">
@@ -2650,7 +2650,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2678,7 +2678,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312890/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312890/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="end_date" elementType="HTTPArgument">
@@ -2710,7 +2710,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2738,7 +2738,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312888/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/meters/ID:312888/consumption/?start_date=2017-03-13T00:00:00&amp;end_date=9999-12-31T23:59:59" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="end_date" elementType="HTTPArgument">
@@ -2770,7 +2770,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2798,7 +2798,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://api.usgbc.org/stg/leed/assets/LEED:1000145103/" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -2815,7 +2815,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2843,7 +2843,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://stg.app.arconline.io/app/project/1000145103/actions/data-input/energydata" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="https://stg.app.arconline.io/app/project/1000145103/actions/data-input/energydata" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -2860,7 +2860,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2884,7 +2884,7 @@ Saurav K&#xd;
         </ConstantTimer>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Water Reading Two" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Water Reading Two" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -2908,7 +2908,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -2944,7 +2944,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Water Reading Three" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Water Reading Three" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -2968,7 +2968,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3004,7 +3004,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Water Reading Four" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Water Reading Four" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3028,7 +3028,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3064,7 +3064,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Energy Reading Two" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Energy Reading Two" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3088,7 +3088,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3124,7 +3124,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Energy Reading Three" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Energy Reading Three" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3148,7 +3148,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3184,7 +3184,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Energy Reading Four" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Energy Reading Four" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3208,7 +3208,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3244,7 +3244,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Waste Reading Two" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Waste Reading Two" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3268,7 +3268,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3304,7 +3304,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Waste Reading Three" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Waste Reading Three" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3328,7 +3328,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -3364,7 +3364,7 @@ Saurav K&#xd;
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Input Waste Reading Four" enabled="true">
+      <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="Input Waste Reading Four" enabled="true">
         <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
           <collectionProp name="Arguments.arguments">
@@ -3388,7 +3388,7 @@ Saurav K&#xd;
         <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
-      </HTTPSamplerProxy>
+      </HTTPSampler>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
