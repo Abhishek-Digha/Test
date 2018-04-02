@@ -12,22 +12,49 @@
         Example how to integrate jmeter tests in a maven build and how to automatically 
         generate graphs from the test results using the jmeter plugins CMDRunner. 
     </description>
-    
+
     <properties>
-       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jetty.port>9097</jetty.port>
+        <jetty.stopPort>19097</jetty.stopPort>
+        <performancetest.webservice.host>10.65.84.93</performancetest.webservice.host>
+        <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
+        <performancetest.webservice.path>/</performancetest.webservice.path>
+        <performancetest.connectTimeout>1000</performancetest.connectTimeout>
+        <performancetest.responseTimeout>3000</performancetest.responseTimeout>
+        <performancetest.threadCount>1</performancetest.threadCount>
+        <performancetest.loopCount>1</performancetest.loopCount>
     </properties>
-   
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>jenkins</id>
+            <properties>
+                <performancetest.webservice.host>tomcat7-example-webapp.mlex.cloudbees.net</performancetest.webservice.host>
+                <performancetest.webservice.port>80</performancetest.webservice.port>
+                <performancetest.threadCount>5</performancetest.threadCount>
+                <performancetest.loopCount>5</performancetest.loopCount>
+            </properties>
+        </profile>
+    </profiles>
     <build>
         <plugins>
         
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-clean-plugin</artifactId>
-            <version>3.0.0</version>
+            <version>2.4.1</version>
             <configuration>
                  <filesets>
                     <fileset>
-                        <directory>/var/lib/jenkins/workspace/LeedOnlinePerformance/jmeter-maven-example/Reportfile</directory>
+                        <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory>
                         <includes>
                             <include>**/*</include>
                         </includes>
@@ -40,12 +67,12 @@
             </configuration>
             </plugin>
             
-        <plugin>
-            <artifactId>maven-resources-plugin</artifactId>
-             <version>3.0.1</version>
-           <executions>
-             <execution>
-               <id>copy-resources</id>
+            <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+         <executions>
+          <execution>
+            <id>copy-resources</id>
             <!-- here the phase you need -->
             <phase>test</phase>
             <goals>
@@ -53,10 +80,10 @@
             </goals>
             <configuration>
             <overwrite>false</overwrite>
-              <outputDirectory>/var/lib/jenkins/workspace/LeedOnlinePerformance/jmeter-maven-example/Reportfile</outputDirectory>
+              <outputDirectory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</outputDirectory>
               <resources>          
                 <resource>
-                  <directory>/var/lib/jenkins/workspace/LeedOnlinePerformance/jmeter-maven-example/src/test/jmeter/File</directory>
+                  <directory>/var/lib/jenkins/workspace/TestPerformance/src/test/jmeter/File</directory>
                   <filtering>true</filtering>
                 </resource>
               </resources>              
@@ -66,7 +93,7 @@
       </plugin>
         
         
-
+        
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
@@ -76,25 +103,33 @@
                     <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
                     <suppressJMeterOutput>false</suppressJMeterOutput>
                     <ignoreResultFailures>true</ignoreResultFailures>
-                    <reportDir>${project.build.directory}/jmeter-reports</reportDir>
-           
+                    <propertiesUser>
+                        <webservice.host>${performancetest.webservice.host}</webservice.host>
+                        <webservice.port>${performancetest.webservice.port}</webservice.port>
+                        <webservice.path>${performancetest.webservice.path}</webservice.path>
+                        <webservice.connectTimeout>${performancetest.connectTimeout}</webservice.connectTimeout>
+                        <webservice.responseTimeout>${performancetest.responseTimeout}</webservice.responseTimeout>
+                        <threadCount>${performancetest.threadCount}</threadCount>
+                        <loopCount>${performancetest.loopCount}</loopCount>
+                    </propertiesUser>
+                    <propertiesJMeter>
+                        <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
+                    </propertiesJMeter>
+                    <jmeterPlugins>
+                        <plugin>
+                            <groupId>kg.apc</groupId>
+                            <artifactId>jmeter-plugins</artifactId>
+                        </plugin>
+                    </jmeterPlugins>
                 </configuration>
                 <executions>
-                   <!-- Run JMeter tests -->
-                   <execution>
-                        <id>jmeter-tests</id>
-                        <goals>
-                            <goal>jmeter</goal>
-                        </goals>
-                   </execution>
-                   <!-- Fail build on errors in test -->
-                   <execution>
-                        <id>jmeter-check-results</id>
+                    <execution>
+                        <id>execute-jmeter-tests</id>
                         <goals>
                             <goal>jmeter</goal>
                         </goals>
                         <phase>integration-test</phase>
-                   </execution>
+                    </execution>
                 </executions>
                 <dependencies>
                     <dependency>
@@ -153,7 +188,7 @@
                 </dependencies>
             </plugin>
 
-             
+            
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-analysis-maven-plugin</artifactId>
