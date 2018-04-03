@@ -64,6 +64,15 @@
                     </fileset>
                 
                     
+                    <fileset>
+                        <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory> -->
+                        <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File</directory>
+                        <includes>
+                            <include>**/*</include>
+                        </includes>
+                        <followSymlinks>false</followSymlinks>
+
+                    </fileset>
                 </filesets>
             </configuration>
             </plugin>
@@ -82,12 +91,13 @@
             <configuration>
             <overwrite>false</overwrite>
               <!-- <outputDirectory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</outputDirectory> -->
-              <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv
+              <outputDirectory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File
               </outputDirectory>
               <resources>          
                 <resource>
                   <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/src/test/jmeter/File</directory> -->
-                  <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File</directory>
+                  <directory>
+                    C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv</directory>
                   <filtering>true</filtering>
                 </resource>
               </resources>              
