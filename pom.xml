@@ -82,7 +82,7 @@
             <configuration>
             <overwrite>false</overwrite>
               <!-- <outputDirectory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</outputDirectory> -->
-              <outputDirectory>D:\Jenkins\workspace\TestPerformance\Reportfile
+              <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv
               </outputDirectory>
               <resources>          
                 <resource>
