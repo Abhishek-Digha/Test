@@ -297,7 +297,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
               <elementProp name="C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\agreement.html" elementType="HTTPFileArg">
-                <stringProp name="File.path">/var/lib/jenkins/workspace/ARCPerformance/agreement.html
+                <stringProp name="File.path">/var/lib/jenkins/workspace/agreement.html
                 </stringProp>
                 <stringProp name="File.paramname">agreement</stringProp>
                 <stringProp name="File.mimetype">text/html</stringProp>
