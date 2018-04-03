@@ -97,8 +97,8 @@
               <resources>          
                 <resource>
                   <directory>/var/lib/jenkins/workspace/ARCPerformance/src/test/jmeter/File</directory>
-                  <!-- <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File -->
-                    </directory>
+                  <!-- <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File 
+                    </directory>-->
                   <filtering>true</filtering>
                 </resource>
               </resources>              
