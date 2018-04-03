@@ -65,7 +65,8 @@
                 
                 <fileset>
                         <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory> -->
-                        <directory>/var/www/html/static/arc/</directory>
+                        <!-- <directory>/var/www/html/static/arc/</directory> -->
+                        <directory>/var/lib/jenkins/workspace/ARCPerformance/Report</directory>
                         <includes>
                             <include>**/*</include>
                         </includes>
