@@ -54,7 +54,7 @@
             <configuration>
                  <filesets>
                     <fileset>
-                        <directory>/var/lib/jenkins/workspace/ARCPerformance/Reportfile</directory>
+                        <directory>../Reportfile</directory>
                         <!-- <directory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv</directory> -->
                         <includes>
                             <include>**/*</include>
