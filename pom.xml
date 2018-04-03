@@ -199,7 +199,7 @@
                 <version>1.0.6</version>
                 <configuration>
                     
-                    <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
+                    <source>D:\Jenkins\workspace\TestPerformance\target\jmeter\results/ArcPerformanceBuildingOther.jtl
                     </source>
                     <!-- <source>${project.build.directory}/jmeter/results/ArcPerformanceBuildingOther.jtl
                     </source> -->
