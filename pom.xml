@@ -64,15 +64,7 @@
                     </fileset>
                 
                     
-                    <fileset>
-                        <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory> -->
-                        <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File</directory>
-                        <includes>
-                            <include>**/*</include>
-                        </includes>
-                        <followSymlinks>false</followSymlinks>
-
-                    </fileset>
+                    
                 </filesets>
             </configuration>
             </plugin>
