@@ -92,8 +92,8 @@
             <configuration>
             <overwrite>false</overwrite>
               <outputDirectory>/var/lib/jenkins/workspace/ARCPerformance/Reportfile</outputDirectory>
-              <!-- <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv -->
-              </outputDirectory>
+              <!-- <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv 
+              </outputDirectory>-->
               <resources>          
                 <resource>
                   <directory>/var/lib/jenkins/workspace/ARCPerformance/src/test/jmeter/File</directory>
