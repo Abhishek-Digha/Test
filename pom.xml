@@ -54,7 +54,7 @@
             <configuration>
                  <filesets>
                     <fileset>
-                        <directory>../Reportfile</directory>
+                        <directory>${project.basedir}/Reportfile</directory>
                         <!-- <directory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv</directory> -->
                         <includes>
                             <include>**/*</include>
@@ -92,12 +92,12 @@
             </goals>
             <configuration>
             <overwrite>false</overwrite>
-              <outputDirectory>/var/lib/jenkins/workspace/ARCPerformance/Reportfile</outputDirectory>
+              <outputDirectory>${project.basedir}/Reportfile</outputDirectory>
               <!-- <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv 
               </outputDirectory>-->
               <resources>          
                 <resource>
-                  <directory>/var/lib/jenkins/workspace/ARCPerformance/src/test/jmeter/File</directory>
+                  <directory>${project.basedir}/src/test/jmeter/File</directory>
                   <!-- <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File 
                     </directory>-->
                   <filtering>true</filtering>
