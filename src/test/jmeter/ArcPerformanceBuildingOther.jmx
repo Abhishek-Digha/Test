@@ -327,7 +327,7 @@ log.info(&quot;DATE1=&quot; + vars.get(&quot;date4&quot;));
               <elementProp name="name" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">name</stringProp>
-                <stringProp name="Argument.value">${ProjectName}</stringProp>
+                <stringProp name="Argument.value">${ProjectName} ${__Random(111111,999999)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
